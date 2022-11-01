@@ -1,0 +1,46 @@
+.main-body{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px 30px;
+}
+
+.book-img{
+    height: 500px;
+}
+
+.ipad-img{
+    height: 400px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+.screen-img{
+    height: 320px;
+    position: absolute;
+    z-index: 3;
+    top:430px;
+    left: 214px;
+}
+
+.left-column{
+    
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hook{
+    font-weight: 500;
+    font-size: xx-large;
+    font-family: 'Montserrat';
+}
+
+.main-copy{
+    width: 50%;
+    margin: auto;
+    font-family: 'PT Serif', serif;;
+}
+
+
